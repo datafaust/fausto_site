@@ -13,8 +13,6 @@ image:
   focal_point: ''
 ---
 
-
-
 ```{r setup, echo = T, include=FALSE}
 #libraries and data-----------
 library(shiny)
