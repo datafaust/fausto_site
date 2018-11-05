@@ -53,4 +53,22 @@ reporting
 
   """
 
+[[experience]]
+  title = "Monitoring & Evaluation Assistant"
+  company = "Urban Upbound"
+  company_url = ""
+  location = "New York City"
+  date_start = "2014-07-01"
+  date_end = "2015-05-31"
+  description = """
+  
+  * Designed and implemented analytical tools
+  * Developed evaluation protocols for testing program models
+  * Analyzed data and produced quality reports
+  * Assisted in survey construction
+  
+  
+  """
+
+
 +++
