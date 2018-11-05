@@ -19,27 +19,38 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Analytics Manager"
+  company = "Taxi & Limousine Commission of New York City"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "New York City"
+  date_start = "2016-07-01"
   date_end = ""
   description = """
-  Responsibilities include:
+#  Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Rapid prototype innovative analytical and data storage methodologies on over 300 GB of data to run parallel computing methods
+  * Spearhead driver income study, a $100,000 budget partnership project with the New School to study driver income across New York City Taxi services
+  * Design and automate analytical processes to produce internal and public facing metrics on millions of taxi trip records, creating Shiny/Tableau dashboards and tracking KPIs
+  * Manage 3 person policy analytics team working directly under the Assistant Commissioner of Data and Technology to drive implementation of advanced analytics and make data driven decisions
+
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Data & Evaluation Manager"
+  company = "Urban Upbound"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "New York City"
+  date_start = "2015-06-01"
+  date_end = "2016-06-30"
+  description = """
+#  Responsibilities include:
+  
+  * Oversaw and managed over 6 separate databases to track outcomes and
+reporting
+  * Developed evaluation protocols and analytical tools for testing program models
+  * Assisted in designing and implementing a study on financial stress as a predictor of financial counseling outcomes
+  * In partnership with New York Women's Foundation, designed and implemented the Healthy Aging Study, a qualitative report recommending resource upgrades for senior citizens in Far Rockaway
+
+  """
 
 +++
