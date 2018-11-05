@@ -26,7 +26,7 @@ date_format = "January 2006"
   date_start = "2016-07-01"
   date_end = ""
   description = """
-#  Responsibilities include:
+
   
   * Rapid prototype innovative analytical and data storage methodologies on over 300 GB of data to run parallel computing methods
   * Spearhead driver income study, a $100,000 budget partnership project with the New School to study driver income across New York City Taxi services
@@ -43,7 +43,7 @@ date_format = "January 2006"
   date_start = "2015-06-01"
   date_end = "2016-06-30"
   description = """
-#  Responsibilities include:
+
   
   * Oversaw and managed over 6 separate databases to track outcomes and
 reporting
