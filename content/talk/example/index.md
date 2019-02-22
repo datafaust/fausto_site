@@ -1,5 +1,5 @@
 +++
-title = "Example Talk"
+title = "Open Data Talk: TLC and Taxi Data"
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 draft = false
 
@@ -8,11 +8,11 @@ draft = false
 time_start = 2030-06-01T13:00:00
 time_end = 2030-06-01T15:00:00
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+# Authors. Comma separated list, e.g. `["Fausto Lopez"]`.
 authors = []
 
 # Abstract and optional shortened version.
-abstract = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+abstract = "A fun talk with Open Data staff at Google's blank offices, I had a chance to present some of the work we do at TLC, interesting trends and fun projects. You can watch the video of the presentation [here]()."
 abstract_short = "An example talk using Academic's Markdown slides feature."
 
 # Name of event and optional event URL.
@@ -20,7 +20,7 @@ event = "Academic Theme Conference"
 event_url = "https://example.org"
 
 # Location of event.
-location = "London, United Kingdom"
+location = "New York City, United States"
 
 # Is this a selected talk? (true/false)
 selected = false

@@ -25,18 +25,30 @@ weight = 7
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "80%"
+  description = "90%"
   
 [[feature]]
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "60%"  
+  description = "70%"  
   
 [[feature]]
   icon = "database"
   icon_pack = "fas"
   name = "SQL"
-  description = "70%"  
+  description = "80%"  
+  
+[[feature]]
+  icon = "database"
+  icon_pack = "fas"
+  name = "ClickHouse"
+  description = "60%" 
+  
+[[feature]]
+  icon = "js-square"
+  icon_pack = "fab"
+  name = "javascript"
+  description = "50%" 
 
 +++
