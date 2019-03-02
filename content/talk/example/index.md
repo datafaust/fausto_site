@@ -9,7 +9,7 @@ time_start = 2030-06-01T13:00:00
 time_end = 2030-06-01T15:00:00
 
 # Authors. Comma separated list, e.g. `["Fausto Lopez"]`.
-authors = []
+authors = ["Fausto Lopez"]
 
 # Abstract and optional shortened version.
 abstract = "A fun talk with Open Data staff at Google's blank offices, I had a chance to present some of the work we do at TLC, interesting trends and fun projects. You can watch the video of the presentation [here]()."

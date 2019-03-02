@@ -62,11 +62,11 @@ enableGitInfo = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "faustoLopez110@gmail.com"
+  address = "110-23 55 Ave 2nd Floor Corona New York 11368"
+  office_hours = ""
+  phone = "646-639-3360"
+  skype = ""
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
