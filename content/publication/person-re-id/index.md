@@ -1,10 +1,10 @@
 +++
-title = "A Person Re-Identification System For Mobile Devices"
-date = 2015-09-01T00:00:00
+title = "Healthy Aging in Far Rockaway"
+date = 2015-04-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["GA Cushen"]
+authors = ["Fausto Lopez","Veronica Momjian","Paula Bonfatti"]
 
 # Publication type.
 # Legend:
@@ -15,14 +15,14 @@ authors = ["GA Cushen"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["2"]
+publication_types = ["4"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Signal Image Technology & Internet Systems (SITIS)*, IEEE."
-publication_short = "In *SITIS*"
+publication = "Urban Upbound"
+publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = "Person re-identification is a critical security task for recognizing a person across spatially disjoint sensors. Previous work can be computationally intensive and is mainly based on low-level cues extracted from RGB data and implemented on a PC for a fixed sensor network (such as traditional CCTV). We present a practical and efficient framework for mobile devices (such as smart phones and robots) where high-level semantic soft biometrics are extracted from RGB and depth data. By combining these cues, our approach attempts to provide robustness to noise, illumination, and minor variations in clothing. This mobile approach may be particularly useful for the identification of persons in areas ill-served by fixed sensors or for tasks where the sensor position and direction need to dynamically adapt to a target. Results on the BIWI dataset are preliminary but encouraging. Further evaluation and demonstration of the system will be available on our website."
+abstract = "Urban Upbound's Healthy Aging in Far Rockaway report was developed under the New York Women's Foundation Healthy Aging Initiative, a push for evidence-based program planning for aging women in New York City. We conducted qualitative and quantitative research throughout different New York City Housing Authority Houses in Far Rockaway New York to see how senior women were fairing."
 abstract_short = ""
 
 # Is this a selected publication? (true/false)
@@ -49,7 +49,7 @@ slides = "example-slides"
 tags = []
 
 # Links (optional).
-url_pdf = "http://arxiv.org/pdf/1512.04133v1"
+url_pdf = "http://urbanupbound.org/wp-content/uploads/2016/02/Urban-Upbound-Healthy-Aging-Report.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -73,11 +73,11 @@ math = true
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption = ""
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
 +++
 
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+<!--More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. -->
