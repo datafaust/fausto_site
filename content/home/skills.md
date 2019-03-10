@@ -49,6 +49,6 @@ weight = 7
   icon = "js-square"
   icon_pack = "fab"
   name = "javascript"
-  description = "50%" 
+  description = "30%" 
 
 +++
