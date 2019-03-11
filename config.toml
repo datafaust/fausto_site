@@ -273,7 +273,7 @@ enableGitInfo = false
   [[params.social]] #adding in for cv
     icon = "cv"
     icon_pack = "ai"
-    link = "/static/files/fausto-lopez-resume.pdf"  
+    link = "/docs/fausto-lopez-resume.pdf"  
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
