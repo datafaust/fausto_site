@@ -1,7 +1,7 @@
 ---
 title: Making an R package to Call NHTSA API
 author: Fausto Lopez
-date: '2018-02-01'
+date: '2017-10-14'
 slug: making-an-r-package-to-call-nhtsa-api
 categories: []
 tags:
@@ -16,7 +16,7 @@ image:
 
 ##Why use the NHTSA API?
 
-Recently my team has had to work with matching vehicle information to taxi data, specifically make and model information we didn't have. It reminded me of a while back, around 2017 during the beginnings of our driver income study when we needed vin information to calculate msrp and look at fuel consumption. At the time I had not been able to locate a package in R to call NHTSA (National Highway Transportation Authority). They have a slim but useful [api](https://vpic.nhtsa.dot.gov/api/).
+Recently my team has had to work with matching vehicle information to taxi data, specifically make and model information we didn't have. It reminded me of a while back, mid 2016 during the beginnings of our driver income study when we needed vin information to calculate msrp and look at fuel consumption. At the time I had not been able to locate a package in R to call NHTSA (National Highway Transportation Authority). They have a slim but useful [api](https://vpic.nhtsa.dot.gov/api/).
 
 I hadn't built a package before then, so I thought it would be a good chance to collect some interesting data and learn how to make a package. I reference Hilary Park's [blog](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/) at the time and created my first R package which I called caRshop. It's nothing more than a basic wrapper but it ended up being very useful for our study as well as our enforcement unit which used the information to validate their inspection data.
 

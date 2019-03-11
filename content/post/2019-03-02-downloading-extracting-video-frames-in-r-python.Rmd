@@ -1,7 +1,7 @@
 ---
 title: Downloading & Extracting Video Frames in R & Python
 author: Fausto Lopez
-date: '2019-03-02'
+date: '2018-02-23'
 slug: downloading-extracting-video-frames-in-r-python
 categories: []
 tags:

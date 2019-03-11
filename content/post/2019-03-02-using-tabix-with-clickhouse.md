@@ -1,7 +1,7 @@
 ---
 title: Using Tabix with Clickhouse
 author: Fausto Lopez
-date: '2019-03-02'
+date: '2018-12-22'
 slug: using-tabix-with-clickhouse
 categories: []
 tags:

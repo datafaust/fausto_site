@@ -1,7 +1,7 @@
 ---
 title: Accessing Clickhouse Data in R & Python
 author: Fausto Lopez
-date: '2019-03-02'
+date: '2018-12-13'
 slug: accessing-clickhouse-data-in-r-python
 categories: []
 tags:

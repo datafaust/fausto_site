@@ -1,16 +1,16 @@
 +++
-title = "rpi post"
-subtitle = "boom boom boom :rocket:"
+title = "3d Printing Parts for my Printer: Raspberry Pi Camera Assembly"
+subtitle = "Sky's the limit:rocket:"
 
-date = 2016-04-20T00:00:00
-lastmod = 2018-01-13T00:00:00
+date = 2017-07-28T00:00:00
+lastmod = 2017-07-28T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ['Fausto Lopez']
 
 tags = ["Academic"]
-summary = "Create a beautifully simple website or blog in under 10 minutes."
+summary = "A look at how to make a quick raspberrypi zero server for your 3d printer."
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -35,3 +35,11 @@ summary = "Create a beautifully simple website or blog in under 10 minutes."
 
 # Set captions for image gallery.
 +++
+
+## A Self Conscious Printer
+
+Since it's the middle of the summer and I'm out and about, I don't get as much time to play with my new toys, too busy hiking and motorcycling. Finally got a chance to work on my 3d printer again. I though it best to set up some sort of home server that I could use to track my printer, send it jobs from elsewhere and generally control it remotely. 
+
+A lot of people online were recommending Octopi or Astrobox as good options to run a server, but both required a raspberrypi 3 which I didn't have. What I did have lying around were some raspberry pi zeros so I figured I could make do with those. I decided to go with this lovely [model](https://www.thingiverse.com/thing:2251878).
+
+

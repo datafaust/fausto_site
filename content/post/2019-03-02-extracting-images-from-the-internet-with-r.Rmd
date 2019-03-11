@@ -1,7 +1,7 @@
 ---
 title: Extracting Images from the Internet with R
 author: Fausto Lopez
-date: '2019-03-02'
+date: '2018-02-01'
 slug: extracting-images-from-the-internet-with-r
 categories: []
 tags:

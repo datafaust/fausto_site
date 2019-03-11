@@ -1,7 +1,7 @@
 ---
 title: Accessing Clickhouse Data in R & Python
 author: Fausto Lopez
-date: '2019-03-02'
+date: '2018-12-13'
 slug: accessing-clickhouse-data-in-r-python
 categories: []
 tags:
@@ -45,8 +45,8 @@ tbl(con, &quot;trips&quot;) %&gt;%
   summarise(trips=sum(tip_amount, na.rm = T))
 trips</code></pre>
 <pre><code>## # Source:   lazy query [?? x 2]
-## # Database: clickhouse 19.1.6 [default@localhost:9000/default; uptime:
-## #   0.02 days ]
+## # Database: clickhouse 19.1.6 [default@localhost:9000/default; uptime: 0
+## #   days ]
 ##   cab_type       trips
 ##   &lt;chr&gt;          &lt;dbl&gt;
 ## 1 yellow   1242908568.

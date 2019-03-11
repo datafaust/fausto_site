@@ -19,3 +19,9 @@ The Taxi & Limousine Commission of New York City (TLC) is the regulating body fo
 
 In order to make this easier for the public, I created the [tlc fast dash](https://tlcanalytics.shinyapps.io/tlc_fast_dash/), a simple shiny application meant to help visualize these metrics for rapid use. The source code is available through the app or you can [click right here](https://gitlab.com/maverick_tlc/tlc_fast_dash). You can also see the official post at the [tlc medium blog](https://medium.com/@NYCTLC/simple-to-use-visualizations-for-trip-trends-6dd35ae1f247)
 
+This dashboard has gone through many iterations in the beginning of my shiny R career, you can see some of the iterations in snapshots from before:
+
+
+
+Soon to come is a more comprehensive dashboard, my team is working. Stay tuned.
+
