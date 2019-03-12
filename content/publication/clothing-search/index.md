@@ -1,6 +1,6 @@
 +++
 title = "An Earnings Standard for New York City’s App-based Drivers: Economic Analysis and Policy Assessment"
-date = 2013-07-01T00:00:00
+date = 2018-07-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
