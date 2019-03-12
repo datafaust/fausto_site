@@ -28,10 +28,12 @@ date_format = "January 2006"
   description = """
 
   
-  * Rapid prototype innovative analytical and data storage methodologies on over 300 GB of data to run parallel computing methods
-  * Spearhead driver income study, a $100,000 budget partnership project with the New School to study driver income across New York City Taxi services
-  * Design and automate analytical processes to produce internal and public facing metrics on millions of taxi trip records, creating Shiny/Tableau dashboards and tracking KPIs
-  * Manage 3 person policy analytics team working directly under the Assistant Commissioner of Data and Technology to drive implementation of advanced analytics and make data driven decisions
+  * Design and automate analytical frameworks to produce internal and public facing metrics on over 1 billion taxi trip records, creating Shiny/Tableau dashboards and tracking KPIs.
+  * Designed and built Postgres and Clickhouse databases hosting over 300 gigabytes of Citi Bike, taxi and driver income data and increasing reporting speeds by over 500%.
+  * Rapid prototype dashboard tools, analytical processes, ETL procedures and customer applications in partnership with data engineers and IT personnel for production release.
+  * Spearheaded landmark Driver Income study leading to first national vehicle cap on ride sharing companies and minimum driver pay.
+  * Launched Analytics Blog meant to showcase innovative and interesting insights and visualizations on all things taxi related.
+  * Applied regression and random forest models to predict taxi volume and k-means clustering to improve 311 complaint categories.
 
   """
 
@@ -46,10 +48,10 @@ date_format = "January 2006"
 
   
   * Oversaw and managed over 6 separate databases to track outcomes and
-reporting
-  * Developed evaluation protocols and analytical tools for testing program models
-  * Assisted in designing and implementing a study on financial stress as a predictor of financial counseling outcomes
-  * In partnership with New York Women's Foundation, designed and implemented the Healthy Aging Study, a qualitative report recommending resource upgrades for senior citizens in Far Rockaway
+reporting.
+  * Developed evaluation protocols and analytical tools for testing program models.
+  * Assisted in designing and implementing a study on financial stress as a predictor of financial counseling outcomes.
+  * In partnership with New York Women's Foundation, designed and implemented the Healthy Aging Study, a qualitative report recommending resource upgrades for senior citizens in Far Rockaway.
 
   """
 
@@ -62,10 +64,10 @@ reporting
   date_end = "2015-05-31"
   description = """
   
-  * Designed and implemented analytical tools
-  * Developed evaluation protocols for testing program models
-  * Analyzed data and produced quality reports
-  * Assisted in survey construction
+  * Designed and implemented analytical tools.
+  * Developed evaluation protocols for testing program models.
+  * Analyzed data and produced quality reports.
+  * Assisted in survey construction.
   
   
   """

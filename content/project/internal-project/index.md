@@ -1,12 +1,12 @@
 +++
 # Project title.
-title = "My First Drone"
+title = "My First Drone: coming soon . . . "
 
 # Date this page was created.
 date = 2016-04-27T00:00:00
 
 # Project summary to display on homepage.
-summary = "An example of using the in-built project page."
+summary = "This was my first drone I ever built, planning to upload steps soon . . ."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning", "drones"]`
