@@ -40,15 +40,21 @@ weight = 7
   description = ""  
   
 [[feature]]
+  icon = "yandex"
+  icon_pack = "fab"
+  name = "Clickhouse DBMS"
+  description = "" 
+  
+[[feature]]
   icon = "database"
   icon_pack = "fas"
-  name = "ClickHouse"
-  description = "" 
+  name = "PostgreSQL"
+  description = ""  
   
 [[feature]]
   icon = "js-square"
   icon_pack = "fab"
-  name = "javascript"
+  name = "Javascript"
   description = "" 
 
 +++

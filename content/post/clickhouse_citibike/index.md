@@ -7,7 +7,7 @@ lastmod = 2019-01-20T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ['Fausto Lopez']
 
 tags = ["Academic"]
 summary = "A quick tutorial on loading citibike data into a clickhouse database."
