@@ -213,4 +213,14 @@ sudo chmod g+s .
 More to come here as I update this post
 
 
+# issues with rgdal
+
+run:
+![link](https://stackoverflow.com/questions/15248815/rgdal-package-installation)
+sudo add-apt-repository -y ppa:ubuntugis/ubuntugis-unstable
+sudo apt update
+sudo apt install gdal-bin python-gdal python3-gdal libgdal1-dev
+sudo apt-get install libudunits2-dev libgdal-dev libgeos-dev libproj-dev
+install.packages("rgdal")
+
 
