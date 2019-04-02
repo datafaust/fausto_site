@@ -68,7 +68,7 @@ And you wait until you see it running:
 
 Connecting to your instance can be a headache if you haven't done it before. If you are just starting off then you will have to create a new one; as is often the case with Microsoft windows in programming and data, things are more difficult than MacOS or Linux. First download [putty](https://www.putty.org/), then you’ll want to create a key pair and convert that key pair with [puttygen](https://aws.amazon.com/premiumsupport/knowledge-center/convert-pem-file-into-ppk/). Now you can feed this converted pair into your puttygen app to connect. Note that when you finally get that terminal open, your login is ubuntu with no password.
 
-#Install R
+# Install R
 
 I like the idea of having a mobile rstudio option, so as Dean Attali does in his install procedure I went ahead and set that up as well. First I updated and added nginx:
 
@@ -99,7 +99,7 @@ sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" >> /etc/
 The above will install R 3.4, if you want 3.5 and above run:
 
 ```
-sudo sh -c 'echo "deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/" >> /etc/apt/sources.list
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/'
 ```
 
 And add public keys:
@@ -196,7 +196,21 @@ Once this runs you will be able to hit your EC2 address again as with rstudio se
 
 ![](shiny_page.png)
 
-#Deploy a Shiny App using Git
+# Add write and read priveleges
+
+```
+sudo groupadd shiny-apps
+sudo usermod -aG shiny-apps ubuntu
+sudo usermod -aG shiny-apps shiny
+cd /srv/shiny-server
+sudo chown -R ubuntu:shiny-apps .
+sudo chmod g+w .
+sudo chmod g+s .
+```
+
+# Deploy a Shiny App using Git
 
 More to come here as I update this post
+
+
 
