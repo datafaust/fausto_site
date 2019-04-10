@@ -1,21 +1,40 @@
----
-title: A Billion Taxi Rides in Clickhouse WSL on a DELL G7
-author: Fausto Lopez
-date: '2018-12-07'
-slug: a-billion-taxi-rides-in-clickhouse-wsl-on-a-dell-g7
-categories: []
-tags:
-  - taxi
-  - database
-image:
-  caption: ''
-  focal_point: ''
----
++++
+title = "A Billion Taxi Rides in Clickhouse WSL"
+subtitle = "All on a Dell G7:rocket:"
 
+date = 2018-12-07T00:00:00
+lastmod = 2018-12-07T00:00:00
+draft = false
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+authors = ['Fausto Lopez']
+
+tags = ["Academic"]
+summary = "Loading a billion taxi rides into clickhouse on WSL as a proof of concept for low resource optimization."
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["deep-learning"]` references 
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+# projects = ["internal-project"]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
+
+  # Show image only in page previews?
+  preview_only = false
+
+# Set captions for image gallery.
++++
 
 ## Why ClickHouse?
 
@@ -71,7 +90,7 @@ I chose to do this in chunks as I did not have the hard drive space in place. Th
 
 And then run the script to pull the data:
 
-```{r, eval=F}
+```
 COPY (
     SELECT trips.id,
            trips.vendor_id,
@@ -149,7 +168,7 @@ Once you finish downloading the files you are read to load them into clickhouse.
 
 This was certainly the trickiest part of this porcess. Clickhouse [documentation](https://clickhouse.yandex/docs/en/getting_started/) asks for the following code segments:
 
-```{r, eval = F}
+```
 deb http://repo.yandex.ru/clickhouse/deb/stable/ main/
 sudo apt-get install dirmngr    # optional
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv E0C56BD4    # optional
@@ -181,7 +200,7 @@ Start the client:
 
 You are now in the equivalent of the psql database in clickhouse.In here you can run all your database queries, you can create a database and begin making tables. You will want to create the trips table in order to populate it with the data from the .gz files. You can run the following code:
 
-```{r eval = F}
+```
 CREATE TABLE trips (
     id                      UInt32,
     vendor_id               String,
@@ -262,7 +281,7 @@ So in order to fix this we run his script. You will want to make sure that you i
 
 and then paste in the script text:
 
-```{r eval = F}
+```
 import sys
 
 
@@ -287,7 +306,7 @@ You should now see clickhouse loading and processing data. This will vary on the
 ##Query and Test 
 You can take this a step further, creating a mergetree table and tuning up. But you will want to run a few tests first. You can go head and access the data with some basic queries:
 
-```{r eval=F}
+```
 ----cab type
 SELECT cab_type, count(*)
 FROM trips
@@ -309,4 +328,5 @@ You should see these queries run in a few seconds depending on how much data you
 
 ##Conclusions and Next Steps
 Ultimately this is a very powerful software, particularly for low-resource departments with big data usage. This setup is certainly not the most optimal, but for quick access to large data for the average person, clickhouse seems to be a very powerful tool with great potential. A better setup would leverage pure linux distributions, but this can be a great option for organizations which for security reasons may not be able to run linux outside of a windows environment.In the next step I will try and run Tabix, which is a third party gui meant to allow for access of clickhouse data as well as test R and Python access to clickhouse via wsl. Stay tuned!
+
 
