@@ -5,7 +5,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 title = "Projects"
-subtitle = ""
+subtitle = "These are some of my personal projects as well as the ones I am involved with professionally. Some projects will be in development."
 
 # Order that this section will appear in.
 weight = 50

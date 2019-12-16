@@ -9,7 +9,7 @@
 baseurl = "/"
 
 # Title of your site
-title = ""
+title = "Fausto Lopez"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -99,7 +99,7 @@ enableGitInfo = false
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "dark"
+  color_theme = "ocean"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -264,6 +264,11 @@ enableGitInfo = false
     icon = "linkedin"
     icon_pack = "fab"
     link = "https://linkedin.com/in/lopezfausto"
+  
+  [[params.social]]
+    icon = "gitlab"
+    icon_pack = "fab"
+    link = "https://gitlab.com/ulysses"
 
   [[params.social]]
     icon = "github"
@@ -291,7 +296,7 @@ enableGitInfo = false
   align_right = true
 
 [[menu.main]]
-  name = "Home"
+  name = "About"
   url = "#about"
   weight = 1
   
@@ -299,31 +304,27 @@ enableGitInfo = false
   name = "Resume"
   url = "/files/fausto-lopez-resume.pdf"
   weight = 2
-
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 3
-
+  
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 4
+  weight = 3
 
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 5
+  weight = 4
 
 [[menu.main]]
-  name = "Tutorials"
-  url = "/tutorial/"
-  weight = 6
+  name = "Publications"
+  url = "#publications_selected"
+  weight = 5
+
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 7
+  weight = 6
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -373,3 +374,9 @@ enableGitInfo = false
 #    name = "Wo"
 #    url = "#about"
 #    weight = 1
+
+#-----------------------old cde
+#[[menu.main]]
+#  name = "Tutorials"
+#  url = "/tutorial/"
+#  weight = 6

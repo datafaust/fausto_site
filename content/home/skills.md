@@ -56,5 +56,23 @@ weight = 7
   icon_pack = "fab"
   name = "Javascript"
   description = "" 
+  
+[[feature]]
+  icon = "css3-alt"
+  icon_pack = "fab"
+  name = "HTML/CSS"
+  description = "" 
+  
+[[feature]]
+  icon = "react"
+  icon_pack = "fab"
+  name = "React"
+  description = "" 
+  
+[[feature]]
+  icon = "react"
+  icon_pack = "fab"
+  name = "React Native"
+  description = "" 
 
 +++

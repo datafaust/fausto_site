@@ -1,12 +1,12 @@
 +++
 # Project title.
-title = "LinkNYC Locator: find Wi-fi spots"
+title = "Citibike Locator: find citi-bike locations in NYC"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00
 
 # Project summary to display on homepage.
-summary = "Built in React JS and optimized for mobile, this webapp was a fun react project to get started with."
+summary = "Built in React JS and optimized for mobile, this webapp helps you access citibike station live feed."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
